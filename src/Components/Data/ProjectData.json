@@ -1,3 +1,4 @@
+
 [
     {
         "id": 1,
@@ -6,7 +7,7 @@
         "desc": "This website is an International Ecommerce website. You can Buy products and Sell products on this website. In this clone website my contribution is that I have made deals page and inside the deals page, I have created all the functionality same as the original website.",
         "github": "https://github.com/MindofSkk/rack",
         "link": "https://precious-lokum-c13ef5.netlify.app/",
-        "tech":[ "" ]    },
+        "tech":[ "React,HT,CSS,JavaScript" ]    },
     {
         "id": 2,
         "img": "https://miro.medium.com/max/1400/1*ZDiCjNAtffkbZHwItMee1g.png",
@@ -23,7 +24,7 @@
         "desc": "This website is an International Ecommerce website. You can Buy products and Sell products on this website. In this clone website my contribution is that I have made deals page and inside the deals page, I have created all the functionality same as the original website.",
         "github": "https://github.com/MindofSkk/pluralsight",
         "link": "https://tubular-lokum-ece7f7.netlify.app/#",
-        "tech":["https://p.kindpng.com/picc/s/171-1718053_html-css-javascript-png-transparent-png.png"]
+        "tech":[""]
     }
    
   

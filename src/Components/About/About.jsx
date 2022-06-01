@@ -2,17 +2,18 @@ import React from "react";
 import styles from "./About.module.css";
 import Container from "@material-ui/core/Container";
 import { Box } from "@material-ui/core";
-import Button from '@material-ui/core/Button';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import Button from "@material-ui/core/Button";
+import styl from "../Contact/Contact.module.css";
 
+
+import Resume from "../Data/resume.pdf";
+import FileCopyIcon from "@material-ui/icons/FileCopy";
 
 const About = () => {
-
   const newTab = (url) => {
-    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-    if (newWindow) newWindow.opener = null
-}
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
   return (
     <Container id="about" maxWidth="xl" className={styles.home}>
       <Box className={styles.mainBox}>
@@ -38,35 +39,22 @@ const About = () => {
               I hope to work in a dynamic organization that offers opportunities
               and helps in my overall growth and development alongside the
               organization. <br />
-              Feel free to contact me at: 
-             <br/>
-
-              <strong>  helpmeskk@gmail.com</strong>
+              Feel free to contact me at:
+              <br />
+              <strong> helpmeskk@gmail.com</strong>
             </p>
-          
-               
-         
-                    <Button 
-                        variant="contained"
-                        color="primary"
-                        startIcon={< LinkedInIcon/>}
-                        onClick={()=>newTab("https://www.linkedin.com/in/mindofskk/")}
-                    >
-                        LinkedIn
-                    </Button>
-                 
-             
 
-                    <Button
-                        variant="contained"
-                        color="black"
-                        startIcon={< GitHubIcon/>}
-                        onClick={()=>newTab("https://github.com/MindofSkk")}
-                    >
-                        GitHub
-                    </Button>  
-     
-                   
+            <Button
+              variant="contained"
+              color="primary"
+              startIcon={<FileCopyIcon />}
+            >
+              <a href={Resume} className={styl.dTag} download>
+                My Resume
+              </a>
+            </Button>
+          
+
           </Box>
         </Box>
       </Box>
