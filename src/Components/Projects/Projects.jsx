@@ -31,10 +31,11 @@ const Projects = () => {
                             </Box>
                             <Box className={styles.projectCardDesc}>
                                 <p>{el.desc}</p>
+                                <strong><p> Tech Stack: {el.tech}</p></strong>
                             </Box>
                             <Box className={styles.projectCardStack}>
-                                <img src={el.tech[0]} className={styles.logoImg} alt="" />
-                              
+                                {/* <img src={el.tech[0]} className={styles.logoImg} alt="" /> */}
+                              {/* <p>{el.tech}</p> */}
                             </Box>
                             <Box className={styles.projectCardBtn}>
                             <Button
