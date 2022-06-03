@@ -2,22 +2,32 @@
 [
     {
         "id": 1,
+        "img": "https://zerosticker.com/wp-content/uploads/2021/09/cropped-zero-sticker.jpg",
+        "name": "ZERO STICKER  (Live-Project)",
+        "desc": "(Live-Project) ZERO STICKER is onlline E-commerce Website. zero sticker provide all types of stickers like Bike stickers, car stickers, wall stickers, background stickers, laptop stickers, random stickers and etc… "
+                   ,
+        "github": "https://github.com/MindofSkk/",
+        "link": "https:zerosticker.com/",
+        "tech":[" Wordpress "]     },   
+    {
+        "id": 2,
         "img": "https://miro.medium.com/max/1400/1*FswDNinnLpe95QoF5JAvoQ.png",
-        "name": "Nordstromrack.com Clone",
+        "name": "Nordstromrack.com (Clone)",
         "desc": "This website is an International Ecommerce website. You can Buy products and Sell products on this website. In this clone website my contribution is that I have made deals page and inside the deals page, I have created all the functionality same as the original website.",
         "github": "https://github.com/MindofSkk/rack",
         "link": "https://precious-lokum-c13ef5.netlify.app/",
         "tech":[" React , Css , JavaScript "]     },
+         
     {
-        "id": 2,
+        "id": 3,
         "img": "https://miro.medium.com/max/1400/1*ZDiCjNAtffkbZHwItMee1g.png",
-        "name": "ebay.com Clone",
+        "name": "ebay.com (Clone)",
         "desc": "This website is an International Ecommerce website. You can Buy products and Sell products on this website. In this clone website my contribution is that I have made deals page and inside the deals page, I have created all the functionality same as the original website.",
         "github": "https://github.com/MindofSkk/Ebay-Website-Clone",
         "link": " https://lighthearted-boba-40e862.netlify.app",
         "tech":[" Html , Css , JavaScript "]     },
     {
-        "id": 3,
+        "id": 4,
         "img": "https://miro.medium.com/max/1400/1*R5LYXaUvgvJ_LCQwGK4Fmw.jpeg",
         "name": "pluralsight (Clone)",
         "desc": "This website is an International Ecommerce website. You can Buy products and Sell products on this website. In this clone website my contribution is that I have made deals page and inside the deals page, I have created all the functionality same as the original website.",
