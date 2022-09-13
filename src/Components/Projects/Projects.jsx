@@ -18,6 +18,7 @@ const Projects = () => {
         <Container id="projects" maxWidth="xl" className={styles.main}>
             <Box className={styles.title}>
                 <span>Projects</span>
+                <hr />
             </Box>
             <Box className={styles.projectContainer}>
                 {
@@ -49,11 +50,11 @@ const Projects = () => {
                             {
                                el.link !== "" && <Button
                                                     variant="contained"
-                                                    color="primary"
+                                                    color=""
                                                     startIcon={<LinkIcon />}
                                                     onClick={()=>newTab(el.link)}
                                                 >
-                                                    Website
+                                                    Live
                                                 </Button>
                             }
                             </Box>

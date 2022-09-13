@@ -1,7 +1,9 @@
 .main {
   height: auto;
-  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Slab", serif;
+  font-family: Arial, Helvetica, sans-serif; */
   border: 1px solid white;
+
 }
 
 .title {

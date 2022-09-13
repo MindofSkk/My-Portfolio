@@ -45,6 +45,7 @@ const Contact = () => {
         <Container id="contact" maxWidth="xl" className={styles.main}>
             <Box className={styles.title}>
                 <span>Contact Me</span>
+                <hr/>
             </Box>
             <Box className={styles.infoContainer}>
                 <Box className={styles.linksBox}>
@@ -69,7 +70,7 @@ const Contact = () => {
                         color="secondary"
                         startIcon={< EmailIcon/>}
                     >
-                        <a href="mailto:helpmeskk@" className={styles.dTag} download>
+                        <a href="mailto:helpmeskk@gmail.com" className={styles.dTag} download>
                             Email
                         </a>
                     </Button>

@@ -9,21 +9,30 @@ import { Skills } from './Components/Skills/Skills';
 // import styles from "../src/Components/BottomBanner/Banner.module.css"
 import { Banner } from './Components/BottomBanner/Banner';
 import { DrawerNav } from './Components/NavBar/DrawerNav';
+import { Skk } from './Components/skk/Skk';
+import { SAbout } from './Components/skk/SAbout';
+import { Sfooter } from './Components/skk/Sfooter';
 
 function App() {
   return (
     <div>
       <Scrollbar renderByPixels={true}>
-        <Portfolio />
-        <About />
+      <Skk/>
+        {/* <Portfolio /> */}
+        <SAbout/>
+
+        {/* <About /> */}
         <Skills />
         <Projects />
         {/* <Blogs /> */}
         <Contact />
       </Scrollbar>
       <DrawerNav />
+      {/* <Skk/> */}
+
       <Navbar />
-      <Banner />
+      {/* <Banner /> */}
+      <Sfooter/>
     </div>
   );
 }
