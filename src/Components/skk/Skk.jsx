@@ -26,7 +26,7 @@ export const Skk = () => {
 
           <p style={{ color: "white" }}>
             Full Stack Developer with a passion for development and excited to
-            be at the deployment phase of my career as a web developer. <br />
+            be at the development phase of my career as a web developer. <br />
             Proficient in Frontend technology as well as in backend technology.
           </p>
           <br />
